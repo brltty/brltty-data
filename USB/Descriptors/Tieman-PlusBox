@@ -1,0 +1,8 @@
+D:  Ver= 1.00 Cls=ff(vend.) Sub=00 Prot=00 MxPS= 8 #Cfgs=  1
+P:  Vendor=0798 ProdID=0001 Rev= 0.01
+S:  Manufacturer=F.J. Tieman BV
+S:  Product=Braille Voyager
+S:  SerialNumber=01AB92D707000050
+C:* #Ifs= 1 Cfg#= 1 Atr=40 MxPwr=  2mA
+I:  If#= 0 Alt= 0 #EPs= 1 Cls=ff(vend.) Sub=00 Prot=00 Driver=(none)
+E:  Ad=81(I) Atr=03(Int.) MxPS=   8 Ivl=10ms

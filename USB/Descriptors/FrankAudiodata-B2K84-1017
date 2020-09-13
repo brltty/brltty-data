@@ -1,0 +1,11 @@
+D:  Ver= 1.00 Cls=00(>ifc ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
+P:  Vendor=0904 ProdID=1017 Rev= 1.03
+S:  Manufacturer=Frank Audiodata
+S:  Product=BRAILLE ZEILE 80
+S:  SerialNumber=CB8H 009240917
+C:* #Ifs= 1 Cfg#= 1 Atr=a0 MxPwr=100mA
+I:* If#= 0 Alt= 0 #EPs= 4 Cls=ff(vend.) Sub=00 Prot=00 Driver=(none)
+E:  Ad=81(I) Atr=03(Int.) MxPS=  12 Ivl=4ms
+E:  Ad=01(O) Atr=03(Int.) MxPS=   4 Ivl=4ms
+E:  Ad=02(O) Atr=02(Bulk) MxPS=  64 Ivl=0ms
+E:  Ad=82(I) Atr=02(Bulk) MxPS=  64 Ivl=0ms

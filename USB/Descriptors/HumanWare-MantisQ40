@@ -1,0 +1,25 @@
+D:  Ver= 2.00 Cls=00(>ifc ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
+P:  Vendor=1c71 ProdID=c006 Rev= 4.14
+S:  Manufacturer=Humanware
+S:  Product=APH Mantis Q40
+S:  SerialNumber=65-0210-100000
+C:* #Ifs= 6 Cfg#= 1 Atr=80 MxPwr=  2mA
+A:  FirstIf#= 4 IfCount= 2 Cls=02(comm.) Sub=02 Prot=01
+I:* If#= 0 Alt= 0 #EPs= 3 Cls=06(still) Sub=01 Prot=01 Driver=usbfs
+E:  Ad=81(I) Atr=02(Bulk) MxPS= 512 Ivl=0ms
+E:  Ad=02(O) Atr=02(Bulk) MxPS= 512 Ivl=0ms
+E:  Ad=83(I) Atr=03(Int.) MxPS=  28 Ivl=4ms
+I:* If#= 1 Alt= 0 #EPs= 2 Cls=03(HID  ) Sub=00 Prot=00 Driver=usbhid
+E:  Ad=84(I) Atr=03(Int.) MxPS=   8 Ivl=1ms
+E:  Ad=05(O) Atr=03(Int.) MxPS=   8 Ivl=1ms
+I:* If#= 2 Alt= 0 #EPs= 2 Cls=03(HID  ) Sub=00 Prot=00 Driver=usbhid
+E:  Ad=86(I) Atr=03(Int.) MxPS=   8 Ivl=1ms
+E:  Ad=07(O) Atr=03(Int.) MxPS=   8 Ivl=1ms
+I:* If#= 3 Alt= 0 #EPs= 2 Cls=03(HID  ) Sub=01 Prot=01 Driver=usbhid
+E:  Ad=88(I) Atr=03(Int.) MxPS=   8 Ivl=1ms
+E:  Ad=09(O) Atr=03(Int.) MxPS=   8 Ivl=1ms
+I:* If#= 4 Alt= 0 #EPs= 1 Cls=02(comm.) Sub=02 Prot=01 Driver=cdc_acm
+E:  Ad=8c(I) Atr=03(Int.) MxPS=  10 Ivl=32ms
+I:* If#= 5 Alt= 0 #EPs= 2 Cls=0a(data ) Sub=00 Prot=00 Driver=cdc_acm
+E:  Ad=8a(I) Atr=02(Bulk) MxPS= 512 Ivl=0ms
+E:  Ad=0b(O) Atr=02(Bulk) MxPS= 512 Ivl=0ms

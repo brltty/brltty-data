@@ -1,0 +1,9 @@
+D:  Ver= 2.00 Cls=00(>ifc ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
+P:  Vendor=1209 ProdID=abc0 Rev= 2.00
+S:  Manufacturer=Innovision
+S:  Product=BrailleMe
+S:  SerialNumber=00000000001A
+C:* #Ifs= 1 Cfg#= 1 Atr=c0 MxPwr=100mA
+I:* If#= 0 Alt= 0 #EPs= 2 Cls=03(HID  ) Sub=00 Prot=00 Driver=(none)
+E:  Ad=81(I) Atr=03(Int.) MxPS=  64 Ivl=32ms
+E:  Ad=01(O) Atr=03(Int.) MxPS=  64 Ivl=32ms

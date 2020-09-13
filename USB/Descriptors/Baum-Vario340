@@ -1,0 +1,9 @@
+D:  Ver= 2.00 Cls=00(>ifc ) Sub=00 Prot=00 MxPS= 8 #Cfgs=  1
+P:  Vendor=0904 ProdID=6201 Rev= 1.00
+S:  Manufacturer=BAUM Retec AG
+S:  Product=Vario 340
+S:  SerialNumber=44011772
+C:* #Ifs= 1 Cfg#= 1 Atr=a0 MxPwr=500mA
+I:* If#= 0 Alt= 0 #EPs= 2 Cls=03(HID  ) Sub=00 Prot=00 Driver=usbhid
+E:  Ad=81(I) Atr=03(Int.) MxPS=  64 Ivl=4ms
+E:  Ad=02(O) Atr=03(Int.) MxPS=  64 Ivl=4ms

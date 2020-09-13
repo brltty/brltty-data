@@ -1,0 +1,7 @@
+D:  Ver= 1.10 Cls=00(>ifc ) Sub=00 Prot=00 MxPS= 8 #Cfgs=  1
+P:  Vendor=04d8 ProdID=abd7 Rev=f1.00
+S:  Manufacturer=MDV
+S:  Product=408USB
+C:* #Ifs= 1 Cfg#= 1 Atr=a0 MxPwr=480mA
+I:* If#= 0 Alt= 0 #EPs= 1 Cls=03(HID  ) Sub=01 Prot=00 Driver=usbhid
+E:  Ad=81(I) Atr=03(Int.) MxPS=   8 Ivl=10ms

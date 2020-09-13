@@ -1,0 +1,8 @@
+D:  Ver= 1.10 Cls=00(>ifc ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
+P:  Vendor=c251 ProdID=1122 Rev= 1.00
+S:  Manufacturer=Eurobraille
+S:  Product=Esys HID/Memory
+S:  SerialNumber=Eurobraille Esys
+C:* #Ifs= 1 Cfg#= 1 Atr=a0 MxPwr=250mA
+I:* If#= 0 Alt= 0 #EPs= 1 Cls=03(HID  ) Sub=00 Prot=00 Driver=usbfs
+E:  Ad=81(I) Atr=03(Int.) MxPS=  64 Ivl=10ms

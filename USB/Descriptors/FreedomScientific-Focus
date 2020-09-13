@@ -1,0 +1,6 @@
+D:  Ver= 1.00 Cls=ff(vend.) Sub=03 Prot=00 MxPS=64 #Cfgs=  1
+P:  Vendor=0f4e ProdID=0100 Rev= 0.00
+C:* #Ifs= 1 Cfg#= 1 Atr=40 MxPwr=500mA
+I:  If#= 0 Alt= 0 #EPs= 2 Cls=00(>ifc ) Sub=00 Prot=00 Driver=usbdevfs
+E:  Ad=01(O) Atr=02(Bulk) MxPS=  64 Ivl=0ms
+E:  Ad=82(I) Atr=02(Bulk) MxPS=  64 Ivl=0ms
