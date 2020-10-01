@@ -1,6 +1,6 @@
---- PythonCygwinCCompiler.old	2020-04-06 07:00:27.348246622 -0400
-+++ PythonCygwinCCompiler.new	2020-04-06 07:03:41.335920591 -0400
-@@ -82,6 +82,15 @@
+--- PythonCygwinCCompiler.old	2020-09-26 04:18:45.434716970 -0400
++++ PythonCygwinCCompiler.new	2020-10-01 05:20:33.114183458 -0400
+@@ -82,6 +82,60 @@
          elif msc_ver == '1600':
              # VS2010 / MSVC 10.0
              return ['msvcr100']
@@ -12,6 +12,51 @@
 +            return ['msvcr120']
 +        elif msc_ver == '1900':
 +            # Visual Studio 2015 / Visual C++ 14.0
++            return ['vcruntime140']
++        elif msc_ver == '1910' :
++            # Visual Studio 2017 / Visual C++ 15.0
++            return ['vcruntime140']
++        elif msc_ver == '1911' :
++            # Visual Studio 2017 / Visual C++ 15.3
++            return ['vcruntime140']
++        elif msc_ver == '1912' :
++            # Visual Studio 2017 / Visual C++ 15.5
++            return ['vcruntime140']
++        elif msc_ver == '1913' :
++            # Visual Studio 2017 / Visual C++ 15.6
++            return ['vcruntime140']
++        elif msc_ver == '1914' :
++            # Visual Studio 2017 / Visual C++ 15.7
++            return ['vcruntime140']
++        elif msc_ver == '1915' :
++            # Visual Studio 2017 / Visual C++ 15.8
++            return ['vcruntime140']
++        elif msc_ver == '1916' :
++            # Visual Studio 2017 / Visual C++ 15.9
++            return ['vcruntime140']
++        elif msc_ver == '1920' :
++            # Visual Studio 2019 / Visual C++ 16.0
++            return ['vcruntime140']
++        elif msc_ver == '1921' :
++            # Visual Studio 2019 / Visual C++ 16.1
++            return ['vcruntime140']
++        elif msc_ver == '1922' :
++            # Visual Studio 2019 / Visual C++ 16.2
++            return ['vcruntime140']
++        elif msc_ver == '1923' :
++            # Visual Studio 2019 / Visual C++ 16.3
++            return ['vcruntime140']
++        elif msc_ver == '1924' :
++            # Visual Studio 2019 / Visual C++ 16.4
++            return ['vcruntime140']
++        elif msc_ver == '1925' :
++            # Visual Studio 2019 / Visual C++ 16.5
++            return ['vcruntime140']
++        elif msc_ver == '1926' :
++            # Visual Studio 2019 / Visual C++ 16.6
++            return ['vcruntime140']
++        elif msc_ver == '1927' :
++            # Visual Studio 2019 / Visual C++ 16.7
 +            return ['vcruntime140']
          else:
              raise ValueError("Unknown MS Compiler version %s " % msc_ver)

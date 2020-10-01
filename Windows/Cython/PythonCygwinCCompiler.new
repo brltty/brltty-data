@@ -91,6 +91,51 @@ def get_msvcr():
         elif msc_ver == '1900':
             # Visual Studio 2015 / Visual C++ 14.0
             return ['vcruntime140']
+        elif msc_ver == '1910' :
+            # Visual Studio 2017 / Visual C++ 15.0
+            return ['vcruntime140']
+        elif msc_ver == '1911' :
+            # Visual Studio 2017 / Visual C++ 15.3
+            return ['vcruntime140']
+        elif msc_ver == '1912' :
+            # Visual Studio 2017 / Visual C++ 15.5
+            return ['vcruntime140']
+        elif msc_ver == '1913' :
+            # Visual Studio 2017 / Visual C++ 15.6
+            return ['vcruntime140']
+        elif msc_ver == '1914' :
+            # Visual Studio 2017 / Visual C++ 15.7
+            return ['vcruntime140']
+        elif msc_ver == '1915' :
+            # Visual Studio 2017 / Visual C++ 15.8
+            return ['vcruntime140']
+        elif msc_ver == '1916' :
+            # Visual Studio 2017 / Visual C++ 15.9
+            return ['vcruntime140']
+        elif msc_ver == '1920' :
+            # Visual Studio 2019 / Visual C++ 16.0
+            return ['vcruntime140']
+        elif msc_ver == '1921' :
+            # Visual Studio 2019 / Visual C++ 16.1
+            return ['vcruntime140']
+        elif msc_ver == '1922' :
+            # Visual Studio 2019 / Visual C++ 16.2
+            return ['vcruntime140']
+        elif msc_ver == '1923' :
+            # Visual Studio 2019 / Visual C++ 16.3
+            return ['vcruntime140']
+        elif msc_ver == '1924' :
+            # Visual Studio 2019 / Visual C++ 16.4
+            return ['vcruntime140']
+        elif msc_ver == '1925' :
+            # Visual Studio 2019 / Visual C++ 16.5
+            return ['vcruntime140']
+        elif msc_ver == '1926' :
+            # Visual Studio 2019 / Visual C++ 16.6
+            return ['vcruntime140']
+        elif msc_ver == '1927' :
+            # Visual Studio 2019 / Visual C++ 16.7
+            return ['vcruntime140']
         else:
             raise ValueError("Unknown MS Compiler version %s " % msc_ver)
 
