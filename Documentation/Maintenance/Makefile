@@ -1,6 +1,6 @@
 all: maintenance.html
 
-maintenance.htnml: *.rst
+maintenance.html: *.rst
 
 %.html: %.rst
 	rst2html $< $@
