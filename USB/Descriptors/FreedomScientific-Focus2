@@ -1,0 +1,8 @@
+D:  Ver= 2.00 Cls=00(>ifc ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
+P:  Vendor=0f4e ProdID=0112 Rev= 3.00
+S:  Manufacturer=Freedom Scientific
+S:  Product=Focus 2
+C:* #Ifs= 1 Cfg#= 1 Atr=80 MxPwr=500mA
+I:* If#= 0 Alt= 0 #EPs= 2 Cls=ff(vend.) Sub=00 Prot=00 Driver=usbfs
+E:  Ad=01(O) Atr=02(Bulk) MxPS=  64 Ivl=0ms
+E:  Ad=82(I) Atr=02(Bulk) MxPS=  64 Ivl=0ms
