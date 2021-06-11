@@ -1,0 +1,8 @@
+D:  Ver= 1.10 Cls=ff(vend.) Sub=00 Prot=00 MxPS= 8 #Cfgs=  1
+P:  Vendor=1a86 ProdID=7523 Rev= 2.64
+S:  Product=USB Serial
+C:* #Ifs= 1 Cfg#= 1 Atr=80 MxPwr= 98mA
+I:* If#= 0 Alt= 0 #EPs= 3 Cls=ff(vend.) Sub=01 Prot=02 Driver=ch341
+E:  Ad=82(I) Atr=02(Bulk) MxPS=  32 Ivl=0ms
+E:  Ad=02(O) Atr=02(Bulk) MxPS=  32 Ivl=0ms
+E:  Ad=81(I) Atr=03(Int.) MxPS=   8 Ivl=1ms
