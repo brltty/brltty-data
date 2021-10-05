@@ -1,0 +1,23 @@
+﻿begin items log: Bytes:38
+item:  0 (0X00): UsagePage = 65280 (0XFF00)
+item:  3 (0X03): Usage = 1 (0X01)
+item:  5 (0X05): Collection = 1 (0X01): Application
+item:  7 (0X07): ReportID = 1 (0X01)
+item:  9 (0X09): ReportCount = 60 (0X3C)
+item: 11 (0X0B): ReportSize = 8 (0X08)
+item: 13 (0X0D): LogicalMaximum = 255 (0X00FF)
+item: 16 (0X10): LogicalMinimum = 0 (0X00)
+item: 18 (0X12): Usage = 1 (0X01)
+item: 20 (0X14): Input = 2 (0X02): data var abs
+item: 22 (0X16): ReportID = 2 (0X02)
+item: 24 (0X18): ReportCount = 60 (0X3C)
+item: 26 (0X1A): ReportSize = 8 (0X08)
+item: 28 (0X1C): LogicalMaximum = 255 (0X00FF)
+item: 31 (0X1F): LogicalMinimum = 0 (0X00)
+item: 33 (0X21): Usage = 1 (0X01)
+item: 35 (0X23): Output = 2 (0X02): data var abs
+item: 37 (0X25): EndCollection
+item: 38 (0X26): end
+end items log: Items:18
+report size: 01 In:61 Out:0 Ftr:0
+report size: 02 In:0 Out:61 Ftr:0
