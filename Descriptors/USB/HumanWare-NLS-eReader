@@ -1,0 +1,15 @@
+D:  Ver= 2.00 Cls=00(>ifc ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
+P:  Vendor=1c71 ProdID=ce01 Rev= 4.14
+S:  Product=NLS eReader Humanware
+S:  SerialNumber=EBH-5002978
+C:* #Ifs= 3 Cfg#= 1 Atr=80 MxPwr=  2mA
+I:* If#= 0 Alt= 0 #EPs= 2 Cls=03(HID  ) Sub=00 Prot=00 Driver=usbhid
+E:  Ad=81(I) Atr=03(Int.) MxPS=   8 Ivl=1ms
+E:  Ad=02(O) Atr=03(Int.) MxPS=   8 Ivl=1ms
+I:* If#= 1 Alt= 0 #EPs= 2 Cls=03(HID  ) Sub=00 Prot=00 Driver=usbhid
+E:  Ad=83(I) Atr=03(Int.) MxPS=   8 Ivl=1ms
+E:  Ad=04(O) Atr=03(Int.) MxPS=   8 Ivl=1ms
+I:* If#= 2 Alt= 0 #EPs= 3 Cls=06(still) Sub=01 Prot=01 Driver=(none)
+E:  Ad=85(I) Atr=02(Bulk) MxPS= 512 Ivl=0ms
+E:  Ad=06(O) Atr=02(Bulk) MxPS= 512 Ivl=0ms
+E:  Ad=87(I) Atr=03(Int.) MxPS=  28 Ivl=4ms

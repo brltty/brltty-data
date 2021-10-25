@@ -1,118 +1,118 @@
-begin items list: Bytes:233
-item:   0 (0X00): UsagePage = 147 (0X93)
-item:   2 (0X02): Usage = 1 (0X01)
-item:   4 (0X04): Collection = 1 (0X01): Application
-item:   6 (0X06): ReportID = 1 (0X01)
-item:   8 (0X08): Usage = 16 (0X10)
-item:  10 (0X0A): Collection = 16 (0X10)
-item:  12 (0X0C): Usage = 48 (0X30)
-item:  14 (0X0E): LogicalMinimum = 0 (0X00)
-item:  16 (0X10): LogicalMaximum = 255 (0X00FF)
-item:  19 (0X13): ReportSize = 16 (0X10)
-item:  21 (0X15): ReportCount = 1 (0X01)
-item:  23 (0X17): Feature = 2 (0X02): data var abs
-item:  25 (0X19): UsageMinimum = 49 (0X31)
-item:  27 (0X1B): UsageMaximum = 51 (0X33)
-item:  29 (0X1D): ReportCount = 4 (0X04)
-item:  31 (0X1F): ReportSize = 8 (0X08)
-item:  33 (0X21): Feature = 3 (0X03): const var abs
-item:  35 (0X23): Usage = 52 (0X34)
-item:  37 (0X25): LogicalMinimum = 0 (0X00)
-item:  39 (0X27): LogicalMaximum = 255 (0X00FF)
-item:  42 (0X2A): ReportCount = 16 (0X10)
-item:  44 (0X2C): Feature = 3 (0X03): const var abs
-item:  46 (0X2E): Usage = 53 (0X35)
-item:  48 (0X30): Feature = 3 (0X03): const var abs
-item:  50 (0X32): EndCollection
-item:  51 (0X33): ReportID = 2 (0X02)
-item:  53 (0X35): Usage = 17 (0X11)
-item:  55 (0X37): Collection = 19 (0X13)
-item:  57 (0X39): Usage = 80 (0X50)
-item:  59 (0X3B): LogicalMaximum = -256 (0XFF00)
-item:  62 (0X3E): ReportCount = 1 (0X01)
-item:  64 (0X40): ReportSize = 8 (0X08)
-item:  66 (0X42): Feature = 2 (0X02): data var abs
-item:  68 (0X44): EndCollection
-item:  69 (0X45): ReportID = 3 (0X03)
-item:  71 (0X47): Usage = 18 (0X12)
-item:  73 (0X49): Collection = 19 (0X13)
-item:  75 (0X4B): Usage = 112 (0X70)
-item:  77 (0X4D): LogicalMaximum = 255 (0X00FF)
-item:  80 (0X50): ReportSize = 8 (0X08)
-item:  82 (0X52): ReportCount = 1 (0X01)
-item:  84 (0X54): Feature = 2 (0X02): data var abs
-item:  86 (0X56): Usage = 113 (0X71)
-item:  88 (0X58): ReportSize = 8 (0X08)
-item:  90 (0X5A): ReportCount = 1 (0X01)
-item:  92 (0X5C): Feature = 2 (0X02): data var abs
-item:  94 (0X5E): Usage = 118 (0X76)
-item:  96 (0X60): ReportSize = 8 (0X08)
-item:  98 (0X62): ReportCount = 1 (0X01)
-item: 100 (0X64): Feature = 2 (0X02): data var abs
-item: 102 (0X66): Usage = 121 (0X79)
-item: 104 (0X68): ReportSize = 8 (0X08)
-item: 106 (0X6A): ReportCount = 1 (0X01)
-item: 108 (0X6C): Feature = 2 (0X02): data var abs
-item: 110 (0X6E): Usage = 122 (0X7A)
-item: 112 (0X70): ReportSize = 8 (0X08)
-item: 114 (0X72): ReportCount = 1 (0X01)
-item: 116 (0X74): Feature = 2 (0X02): data var abs
-item: 118 (0X76): Usage = 123 (0X7B)
-item: 120 (0X78): ReportSize = 8 (0X08)
-item: 122 (0X7A): ReportCount = 1 (0X01)
-item: 124 (0X7C): Feature = 2 (0X02): data var abs
-item: 126 (0X7E): Usage = 124 (0X7C)
-item: 128 (0X80): ReportSize = 8 (0X08)
-item: 130 (0X82): ReportCount = 1 (0X01)
-item: 132 (0X84): Feature = 2 (0X02): data var abs
-item: 134 (0X86): EndCollection
-item: 135 (0X87): ReportID = 4 (0X04)
-item: 137 (0X89): Usage = 20 (0X14)
-item: 139 (0X8B): Collection = 19 (0X13)
-item: 141 (0X8D): UsageMinimum = 0 (0X00)
-item: 143 (0X8F): UsageMaximum = 159 (0X9F)
-item: 145 (0X91): LogicalMaximum = -97 (0X9F)
-item: 147 (0X93): ReportCount = 45 (0X2D)
-item: 149 (0X95): ReportSize = 8 (0X08)
-item: 151 (0X97): Input = 2 (0X02): data var abs
-item: 153 (0X99): EndCollection
-item: 154 (0X9A): ReportID = 5 (0X05)
-item: 156 (0X9C): Usage = 20 (0X14)
-item: 158 (0X9E): Collection = 19 (0X13)
-item: 160 (0XA0): Usage = 112 (0X70)
-item: 162 (0XA2): ReportCount = 1 (0X01)
-item: 164 (0XA4): ReportSize = 8 (0X08)
-item: 166 (0XA6): Output = 2 (0X02): data var abs
-item: 168 (0XA8): Usage = 128 (0X80)
-item: 170 (0XAA): Usage = 129 (0X81)
-item: 172 (0XAC): LogicalMaximum = 80 (0X50)
-item: 174 (0XAE): ReportCount = 2 (0X02)
-item: 176 (0XB0): ReportSize = 8 (0X08)
-item: 178 (0XB2): Output = 2 (0X02): data var abs
-item: 180 (0XB4): Usage = 130 (0X82)
-item: 182 (0XB6): LogicalMaximum = 255 (0X00FF)
-item: 185 (0XB9): ReportCount = 20 (0X14)
-item: 187 (0XBB): ReportSize = 8 (0X08)
-item: 189 (0XBD): Output = 0 (0X00): data array abs
-item: 191 (0XBF): EndCollection
-item: 192 (0XC0): ReportID = 6 (0X06)
-item: 194 (0XC2): Usage = 32768 (0X8000)
-item: 197 (0XC5): Collection = 19 (0X13)
-item: 199 (0XC7): Usage = 32769 (0X8001)
-item: 202 (0XCA): LogicalMaximum = -256 (0XFF00)
-item: 205 (0XCD): ReportCount = 1 (0X01)
-item: 207 (0XCF): ReportSize = 8 (0X08)
-item: 209 (0XD1): Feature = 2 (0X02): data var abs
-item: 211 (0XD3): EndCollection
-item: 212 (0XD4): ReportID = 7 (0X07)
-item: 214 (0XD6): Usage = 32770 (0X8002)
-item: 217 (0XD9): Collection = 19 (0X13)
-item: 219 (0XDB): Usage = 32771 (0X8003)
-item: 222 (0XDE): LogicalMaximum = -256 (0XFF00)
-item: 225 (0XE1): ReportCount = 1 (0X01)
-item: 227 (0XE3): ReportSize = 8 (0X08)
-item: 229 (0XE5): Input = 2 (0X02): data var abs
-item: 231 (0XE7): EndCollection
-item: 232 (0XE8): EndCollection
-item: 233 (0XE9): end
-end items list: Items:115
+Begin Items List: Bytes:233
+Item:   0 (0X00): UsagePage = 147 (0X93)
+Item:   2 (0X02): Usage = 1 (0X01)
+Item:   4 (0X04): Collection = 1 (0X01): Application
+Item:   6 (0X06): ReportID = 1 (0X01)
+Item:   8 (0X08): Usage = 16 (0X10)
+Item:  10 (0X0A): Collection = 16 (0X10)
+Item:  12 (0X0C): Usage = 48 (0X30)
+Item:  14 (0X0E): LogicalMinimum = 0 (0X00)
+Item:  16 (0X10): LogicalMaximum = 255 (0X00FF)
+Item:  19 (0X13): ReportSize = 16 (0X10)
+Item:  21 (0X15): ReportCount = 1 (0X01)
+Item:  23 (0X17): Feature = 2 (0X02): data var abs
+Item:  25 (0X19): UsageMinimum = 49 (0X31)
+Item:  27 (0X1B): UsageMaximum = 51 (0X33)
+Item:  29 (0X1D): ReportCount = 4 (0X04)
+Item:  31 (0X1F): ReportSize = 8 (0X08)
+Item:  33 (0X21): Feature = 3 (0X03): const var abs
+Item:  35 (0X23): Usage = 52 (0X34)
+Item:  37 (0X25): LogicalMinimum = 0 (0X00)
+Item:  39 (0X27): LogicalMaximum = 255 (0X00FF)
+Item:  42 (0X2A): ReportCount = 16 (0X10)
+Item:  44 (0X2C): Feature = 3 (0X03): const var abs
+Item:  46 (0X2E): Usage = 53 (0X35)
+Item:  48 (0X30): Feature = 3 (0X03): const var abs
+Item:  50 (0X32): EndCollection
+Item:  51 (0X33): ReportID = 2 (0X02)
+Item:  53 (0X35): Usage = 17 (0X11)
+Item:  55 (0X37): Collection = 19 (0X13)
+Item:  57 (0X39): Usage = 80 (0X50)
+Item:  59 (0X3B): LogicalMaximum = -256 (0XFF00)
+Item:  62 (0X3E): ReportCount = 1 (0X01)
+Item:  64 (0X40): ReportSize = 8 (0X08)
+Item:  66 (0X42): Feature = 2 (0X02): data var abs
+Item:  68 (0X44): EndCollection
+Item:  69 (0X45): ReportID = 3 (0X03)
+Item:  71 (0X47): Usage = 18 (0X12)
+Item:  73 (0X49): Collection = 19 (0X13)
+Item:  75 (0X4B): Usage = 112 (0X70)
+Item:  77 (0X4D): LogicalMaximum = 255 (0X00FF)
+Item:  80 (0X50): ReportSize = 8 (0X08)
+Item:  82 (0X52): ReportCount = 1 (0X01)
+Item:  84 (0X54): Feature = 2 (0X02): data var abs
+Item:  86 (0X56): Usage = 113 (0X71)
+Item:  88 (0X58): ReportSize = 8 (0X08)
+Item:  90 (0X5A): ReportCount = 1 (0X01)
+Item:  92 (0X5C): Feature = 2 (0X02): data var abs
+Item:  94 (0X5E): Usage = 118 (0X76)
+Item:  96 (0X60): ReportSize = 8 (0X08)
+Item:  98 (0X62): ReportCount = 1 (0X01)
+Item: 100 (0X64): Feature = 2 (0X02): data var abs
+Item: 102 (0X66): Usage = 121 (0X79)
+Item: 104 (0X68): ReportSize = 8 (0X08)
+Item: 106 (0X6A): ReportCount = 1 (0X01)
+Item: 108 (0X6C): Feature = 2 (0X02): data var abs
+Item: 110 (0X6E): Usage = 122 (0X7A)
+Item: 112 (0X70): ReportSize = 8 (0X08)
+Item: 114 (0X72): ReportCount = 1 (0X01)
+Item: 116 (0X74): Feature = 2 (0X02): data var abs
+Item: 118 (0X76): Usage = 123 (0X7B)
+Item: 120 (0X78): ReportSize = 8 (0X08)
+Item: 122 (0X7A): ReportCount = 1 (0X01)
+Item: 124 (0X7C): Feature = 2 (0X02): data var abs
+Item: 126 (0X7E): Usage = 124 (0X7C)
+Item: 128 (0X80): ReportSize = 8 (0X08)
+Item: 130 (0X82): ReportCount = 1 (0X01)
+Item: 132 (0X84): Feature = 2 (0X02): data var abs
+Item: 134 (0X86): EndCollection
+Item: 135 (0X87): ReportID = 4 (0X04)
+Item: 137 (0X89): Usage = 20 (0X14)
+Item: 139 (0X8B): Collection = 19 (0X13)
+Item: 141 (0X8D): UsageMinimum = 0 (0X00)
+Item: 143 (0X8F): UsageMaximum = 159 (0X9F)
+Item: 145 (0X91): LogicalMaximum = -97 (0X9F)
+Item: 147 (0X93): ReportCount = 45 (0X2D)
+Item: 149 (0X95): ReportSize = 8 (0X08)
+Item: 151 (0X97): Input = 2 (0X02): data var abs
+Item: 153 (0X99): EndCollection
+Item: 154 (0X9A): ReportID = 5 (0X05)
+Item: 156 (0X9C): Usage = 20 (0X14)
+Item: 158 (0X9E): Collection = 19 (0X13)
+Item: 160 (0XA0): Usage = 112 (0X70)
+Item: 162 (0XA2): ReportCount = 1 (0X01)
+Item: 164 (0XA4): ReportSize = 8 (0X08)
+Item: 166 (0XA6): Output = 2 (0X02): data var abs
+Item: 168 (0XA8): Usage = 128 (0X80)
+Item: 170 (0XAA): Usage = 129 (0X81)
+Item: 172 (0XAC): LogicalMaximum = 80 (0X50)
+Item: 174 (0XAE): ReportCount = 2 (0X02)
+Item: 176 (0XB0): ReportSize = 8 (0X08)
+Item: 178 (0XB2): Output = 2 (0X02): data var abs
+Item: 180 (0XB4): Usage = 130 (0X82)
+Item: 182 (0XB6): LogicalMaximum = 255 (0X00FF)
+Item: 185 (0XB9): ReportCount = 20 (0X14)
+Item: 187 (0XBB): ReportSize = 8 (0X08)
+Item: 189 (0XBD): Output = 0 (0X00): data array abs
+Item: 191 (0XBF): EndCollection
+Item: 192 (0XC0): ReportID = 6 (0X06)
+Item: 194 (0XC2): Usage = 32768 (0X8000)
+Item: 197 (0XC5): Collection = 19 (0X13)
+Item: 199 (0XC7): Usage = 32769 (0X8001)
+Item: 202 (0XCA): LogicalMaximum = -256 (0XFF00)
+Item: 205 (0XCD): ReportCount = 1 (0X01)
+Item: 207 (0XCF): ReportSize = 8 (0X08)
+Item: 209 (0XD1): Feature = 2 (0X02): data var abs
+Item: 211 (0XD3): EndCollection
+Item: 212 (0XD4): ReportID = 7 (0X07)
+Item: 214 (0XD6): Usage = 32770 (0X8002)
+Item: 217 (0XD9): Collection = 19 (0X13)
+Item: 219 (0XDB): Usage = 32771 (0X8003)
+Item: 222 (0XDE): LogicalMaximum = -256 (0XFF00)
+Item: 225 (0XE1): ReportCount = 1 (0X01)
+Item: 227 (0XE3): ReportSize = 8 (0X08)
+Item: 229 (0XE5): Input = 2 (0X02): data var abs
+Item: 231 (0XE7): EndCollection
+Item: 232 (0XE8): EndCollection
+Item: 233 (0XE9): end
+End Items List: Items:115

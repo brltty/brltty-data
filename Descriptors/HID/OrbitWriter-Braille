@@ -1,29 +1,29 @@
-﻿begin items log: Bytes:59
-item:  0 (0X00): UsagePage = 65 (0X41): Braille
-item:  2 (0X02): Usage = 1 (0X01)
-item:  4 (0X04): Collection = 1 (0X01): Application
-item:  6 (0X06): UsageMinimum = 513 (0X0201)
-item:  9 (0X09): UsageMaximum = 520 (0X0208)
-item: 12 (0X0C): ReportSize = 1 (0X01)
-item: 14 (0X0E): ReportCount = 8 (0X08)
-item: 16 (0X10): LogicalMinimum = 0 (0X00)
-item: 18 (0X12): LogicalMaximum = 1 (0X01)
-item: 20 (0X14): Input = 2 (0X02): data var abs
-item: 22 (0X16): UsagePage = 65 (0X41): Braille
-item: 24 (0X18): Usage = 533 (0X0215)
-item: 27 (0X1B): Usage = 521 (0X0209)
-item: 30 (0X1E): Usage = 534 (0X0216)
-item: 33 (0X21): Usage = 535 (0X0217)
-item: 36 (0X24): Usage = 536 (0X0218)
-item: 39 (0X27): Usage = 537 (0X0219)
-item: 42 (0X2A): ReportSize = 1 (0X01)
-item: 44 (0X2C): ReportCount = 6 (0X06)
-item: 46 (0X2E): LogicalMinimum = 0 (0X00)
-item: 48 (0X30): LogicalMaximum = 1 (0X01)
-item: 50 (0X32): Input = 2 (0X02): data var abs
-item: 52 (0X34): ReportSize = 2 (0X02)
-item: 54 (0X36): ReportCount = 1 (0X01)
-item: 56 (0X38): Input = 3 (0X03): const var abs
-item: 58 (0X3A): EndCollection
-item: 59 (0X3B): end
-end items log: Items:26
+Begin Items List: Bytes:59
+Item:  0 (0X00): UsagePage = 65 (0X41): Braille
+Item:  2 (0X02): Usage = 1 (0X01): BrailleDisplay (CA)
+Item:  4 (0X04): Collection = 1 (0X01): Application
+Item:  6 (0X06): UsageMinimum = 513 (0X0201): KeyboardDot1 (SEL)
+Item:  9 (0X09): UsageMaximum = 520 (0X0208): KeyboardDot8 (SEL)
+Item: 12 (0X0C): ReportSize = 1 (0X01)
+Item: 14 (0X0E): ReportCount = 8 (0X08)
+Item: 16 (0X10): LogicalMinimum = 0 (0X00)
+Item: 18 (0X12): LogicalMaximum = 1 (0X01)
+Item: 20 (0X14): Input = 2 (0X02): data var abs
+Item: 22 (0X16): UsagePage = 65 (0X41): Braille
+Item: 24 (0X18): Usage = 533 (0X0215): DPadCenter (SEL)
+Item: 27 (0X1B): Usage = 521 (0X0209): KeyboardSpace (SEL)
+Item: 30 (0X1E): Usage = 534 (0X0216): DPadUp (SEL)
+Item: 33 (0X21): Usage = 535 (0X0217): DPadDown (SEL)
+Item: 36 (0X24): Usage = 536 (0X0218): DPadLeft (SEL)
+Item: 39 (0X27): Usage = 537 (0X0219): DPadRight (SEL)
+Item: 42 (0X2A): ReportSize = 1 (0X01)
+Item: 44 (0X2C): ReportCount = 6 (0X06)
+Item: 46 (0X2E): LogicalMinimum = 0 (0X00)
+Item: 48 (0X30): LogicalMaximum = 1 (0X01)
+Item: 50 (0X32): Input = 2 (0X02): data var abs
+Item: 52 (0X34): ReportSize = 2 (0X02)
+Item: 54 (0X36): ReportCount = 1 (0X01)
+Item: 56 (0X38): Input = 3 (0X03): const var abs
+Item: 58 (0X3A): EndCollection
+Item: 59 (0X3B): end
+End Items List: Items:26
