@@ -1,0 +1,9 @@
+D:  Ver= 2.10 Cls=00(>ifc ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
+P:  Vendor=045e ProdID=930a Rev= 2.23
+S:  Manufacturer=SELVAS
+S:  Product=H632B
+S:  SerialNumber=H632B0001163
+C:* #Ifs= 1 Cfg#= 1 Atr=80 MxPwr=500mA
+I:* If#= 0 Alt= 0 #EPs= 2 Cls=ff(vend.) Sub=00 Prot=00 Driver=(none)
+E:  Ad=81(I) Atr=02(Bulk) MxPS= 512 Ivl=0ms
+E:  Ad=01(O) Atr=02(Bulk) MxPS= 512 Ivl=0ms
