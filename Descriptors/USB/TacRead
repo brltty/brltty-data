@@ -1,0 +1,12 @@
+D:  Ver= 2.00 Cls=ef(misc ) Sub=02 Prot=01 MxPS=64 #Cfgs=  1
+P:  Vendor=2e8a ProdID=0005 Rev= 1.00
+S:  Manufacturer=MicroPython
+S:  Product=Board in FS mode
+S:  SerialNumber=e66184c4177a2739
+C:* #Ifs= 2 Cfg#= 1 Atr=80 MxPwr=250mA
+A:  FirstIf#= 0 IfCount= 2 Cls=02(comm.) Sub=02 Prot=00
+I:* If#= 0 Alt= 0 #EPs= 1 Cls=02(comm.) Sub=02 Prot=00 Driver=cdc_acm
+E:  Ad=81(I) Atr=03(Int.) MxPS=   8 Ivl=16ms
+I:* If#= 1 Alt= 0 #EPs= 2 Cls=0a(data ) Sub=00 Prot=00 Driver=cdc_acm
+E:  Ad=02(O) Atr=02(Bulk) MxPS=  64 Ivl=0ms
+E:  Ad=82(I) Atr=02(Bulk) MxPS=  64 Ivl=0ms
