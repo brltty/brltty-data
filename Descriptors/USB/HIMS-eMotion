@@ -1,0 +1,50 @@
+T:  Bus=03 Lev=01 Prnt=01 Port=01 Cnt=01 Dev#=  9 Spd=480  MxCh= 4
+D:  Ver= 2.00 Cls=09(hub  ) Sub=00 Prot=01 MxPS=64 #Cfgs=  1
+P:  Vendor=1a40 ProdID=0101 Rev= 1.11
+S:  Product=USB 2.0 Hub
+C:* #Ifs= 1 Cfg#= 1 Atr=e0 MxPwr=100mA
+I:* If#= 0 Alt= 0 #EPs= 1 Cls=09(hub  ) Sub=00 Prot=00 Driver=hub
+E:  Ad=81(I) Atr=03(Int.) MxPS=   1 Ivl=256ms
+
+T:  Bus=03 Lev=02 Prnt=09 Port=00 Cnt=01 Dev#= 12 Spd=480  MxCh= 0
+D:  Ver= 2.10 Cls=00(>ifc ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
+P:  Vendor=045e ProdID=940a Rev= 4.19
+S:  Manufacturer=SELVAS
+S:  Product=Braille eMotion
+S:  SerialNumber=a69f52f0
+C:* #Ifs= 3 Cfg#= 1 Atr=80 MxPwr=500mA
+I:* If#= 0 Alt= 0 #EPs= 3 Cls=ff(vend.) Sub=ff Prot=00 Driver=(none)
+E:  Ad=81(I) Atr=02(Bulk) MxPS= 512 Ivl=0ms
+E:  Ad=01(O) Atr=02(Bulk) MxPS= 512 Ivl=0ms
+E:  Ad=82(I) Atr=03(Int.) MxPS=  28 Ivl=4ms
+I:* If#= 1 Alt= 0 #EPs= 2 Cls=ff(vend.) Sub=42 Prot=01 Driver=usbfs
+E:  Ad=02(O) Atr=02(Bulk) MxPS= 512 Ivl=0ms
+E:  Ad=83(I) Atr=02(Bulk) MxPS= 512 Ivl=0ms
+I:* If#= 2 Alt= 0 #EPs= 2 Cls=03(HID  ) Sub=01 Prot=00 Driver=usbhid
+E:  Ad=84(I) Atr=03(Int.) MxPS=  40 Ivl=1ms
+E:  Ad=03(O) Atr=03(Int.) MxPS=  40 Ivl=1ms
+
+T:  Bus=03 Lev=02 Prnt=09 Port=02 Cnt=02 Dev#= 10 Spd=12   MxCh= 0
+D:  Ver= 1.10 Cls=02(comm.) Sub=00 Prot=00 MxPS= 8 #Cfgs=  1
+P:  Vendor=1a86 ProdID=55d3 Rev= 4.45
+S:  Product=USB Single Serial
+S:  SerialNumber=5735024112
+C:* #Ifs= 2 Cfg#= 1 Atr=80 MxPwr=138mA
+I:* If#= 0 Alt= 0 #EPs= 1 Cls=02(comm.) Sub=02 Prot=01 Driver=cdc_acm
+E:  Ad=83(I) Atr=03(Int.) MxPS=  16 Ivl=1ms
+I:* If#= 1 Alt= 0 #EPs= 2 Cls=0a(data ) Sub=00 Prot=00 Driver=cdc_acm
+E:  Ad=02(O) Atr=02(Bulk) MxPS=  32 Ivl=0ms
+E:  Ad=82(I) Atr=02(Bulk) MxPS=  64 Ivl=0ms
+
+T:  Bus=03 Lev=02 Prnt=09 Port=03 Cnt=03 Dev#= 11 Spd=12   MxCh= 0
+D:  Ver= 2.00 Cls=00(>ifc ) Sub=00 Prot=00 MxPS= 8 #Cfgs=  1
+P:  Vendor=03eb ProdID=2401 Rev= 1.00
+S:  Manufacturer=Selvas HealthCare
+S:  Product=B340T HID KeyBoard
+S:  SerialNumber=1.0.0
+C:* #Ifs= 2 Cfg#= 1 Atr=e0 MxPwr=100mA
+I:* If#= 0 Alt= 0 #EPs= 1 Cls=03(HID  ) Sub=00 Prot=01 Driver=usbhid
+E:  Ad=81(I) Atr=03(Int.) MxPS=   8 Ivl=2ms
+I:* If#= 1 Alt= 0 #EPs= 1 Cls=03(HID  ) Sub=00 Prot=01 Driver=usbhid
+E:  Ad=82(I) Atr=03(Int.) MxPS=   8 Ivl=2ms
+
