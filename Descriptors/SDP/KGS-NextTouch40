@@ -1,0 +1,32 @@
+Service RecHandle: 0x10001
+Service Class ID List:
+  "PnP Information" (0x1200)
+Protocol Descriptor List:
+  "L2CAP" (0x0100)
+    PSM: 1
+  "SDP" (0x0001)
+Language Base Attr List:
+  code_ISO639: 0x656e
+  encoding:    0x6a
+  base_offset: 0x100
+Profile Descriptor List:
+  "PnP Information" (0x1200)
+    Version: 0x0100
+
+Failed to connect to SDP server on FC:0F:E7:B7:CC:52: Connection refused
+Service Name: SerialPort
+Service RecHandle: 0x10007
+Service Class ID List:
+  "Serial Port" (0x1101)
+Protocol Descriptor List:
+  "L2CAP" (0x0100)
+  "RFCOMM" (0x0003)
+    Channel: 6
+Language Base Attr List:
+  code_ISO639: 0x656e
+  encoding:    0x6a
+  base_offset: 0x100
+Profile Descriptor List:
+  "Serial Port" (0x1101)
+    Version: 0x0100
+
