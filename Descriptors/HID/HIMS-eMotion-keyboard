@@ -1,0 +1,33 @@
+Begin Items List: Bytes:59
+Item:  0 (0X00): UsagePage = 1 (0X01): GenericDesktop
+Item:  2 (0X02): Usage = 6 (0X06): Keyboard (CA)
+Item:  4 (0X04): Collection = 1 (0X01): Application
+Item:  6 (0X06): UsagePage = 7 (0X07): Keyboard_Keypad
+Item:  8 (0X08): UsageMinimum = 224 (0XE0): KeyboardLeftControl (DF)
+Item: 10 (0X0A): UsageMaximum = 231 (0XE7): KeyboardRightGUI (DF)
+Item: 12 (0X0C): LogicalMinimum = 0 (0X00)
+Item: 14 (0X0E): LogicalMaximum = 1 (0X01)
+Item: 16 (0X10): ReportSize = 1 (0X01)
+Item: 18 (0X12): ReportCount = 8 (0X08)
+Item: 20 (0X14): Input = 2 (0X02): data var abs
+Item: 22 (0X16): Input = 1 (0X01): const array abs
+Item: 24 (0X18): UsageMinimum = 0 (0X00)
+Item: 26 (0X1A): UsageMaximum = 101 (0X65): KeyboardApplication (SEL)
+Item: 28 (0X1C): LogicalMinimum = 0 (0X00)
+Item: 30 (0X1E): LogicalMaximum = 101 (0X65)
+Item: 32 (0X20): ReportSize = 8 (0X08)
+Item: 34 (0X22): ReportCount = 6 (0X06)
+Item: 36 (0X24): Input = 0 (0X00): data array abs
+Item: 38 (0X26): UsagePage = 8 (0X08): LEDs
+Item: 40 (0X28): UsageMinimum = 1 (0X01): NumLock (OOC)
+Item: 42 (0X2A): UsageMaximum = 5 (0X05): Kana (OOC)
+Item: 44 (0X2C): LogicalMinimum = 0 (0X00)
+Item: 46 (0X2E): LogicalMaximum = 1 (0X01)
+Item: 48 (0X30): ReportSize = 1 (0X01)
+Item: 50 (0X32): ReportCount = 5 (0X05)
+Item: 52 (0X34): Output = 2 (0X02): data var abs
+Item: 54 (0X36): ReportCount = 3 (0X03)
+Item: 56 (0X38): Output = 1 (0X01): const array abs
+Item: 58 (0X3A): EndCollection
+Item: 59 (0X3B): end
+End Items List: Items:30
