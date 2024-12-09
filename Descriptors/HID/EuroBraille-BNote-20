@@ -1,0 +1,36 @@
+Begin Items List: Bytes:65
+Item:  0 (0X00): UsagePage = 1 (0X01): GenericDesktop
+Item:  2 (0X02): Usage = 6 (0X06): Keyboard (CA)
+Item:  4 (0X04): Collection = 1 (0X01): Application
+Item:  6 (0X06): UsagePage = 7 (0X07): Keyboard_Keypad
+Item:  8 (0X08): UsageMinimum = 224 (0XE0): KeyboardLeftControl (DF)
+Item: 10 (0X0A): UsageMaximum = 231 (0XE7): KeyboardRightGUI (DF)
+Item: 12 (0X0C): LogicalMinimum = 0 (0X00)
+Item: 14 (0X0E): LogicalMaximum = 1 (0X01)
+Item: 16 (0X10): ReportSize = 1 (0X01)
+Item: 18 (0X12): ReportCount = 8 (0X08)
+Item: 20 (0X14): Input = 2 (0X02): data var abs
+Item: 22 (0X16): ReportSize = 8 (0X08)
+Item: 24 (0X18): ReportCount = 1 (0X01)
+Item: 26 (0X1A): Input = 1 (0X01): const array abs
+Item: 28 (0X1C): UsageMinimum = 0 (0X00)
+Item: 30 (0X1E): UsageMaximum = 101 (0X65): KeyboardApplication (SEL)
+Item: 32 (0X20): LogicalMinimum = 0 (0X00)
+Item: 34 (0X22): LogicalMaximum = 101 (0X65)
+Item: 36 (0X24): ReportSize = 8 (0X08)
+Item: 38 (0X26): ReportCount = 6 (0X06)
+Item: 40 (0X28): Input = 0 (0X00): data array abs
+Item: 42 (0X2A): UsagePage = 8 (0X08): LEDs
+Item: 44 (0X2C): UsageMinimum = 1 (0X01): NumLock (OOC)
+Item: 46 (0X2E): UsageMaximum = 3 (0X03): ScrollLock (OOC)
+Item: 48 (0X30): LogicalMinimum = 0 (0X00)
+Item: 50 (0X32): LogicalMaximum = 1 (0X01)
+Item: 52 (0X34): ReportSize = 1 (0X01)
+Item: 54 (0X36): ReportCount = 3 (0X03)
+Item: 56 (0X38): Output = 2 (0X02): data var abs
+Item: 58 (0X3A): ReportSize = 5 (0X05)
+Item: 60 (0X3C): ReportCount = 1 (0X01)
+Item: 62 (0X3E): Output = 3 (0X03): const var abs
+Item: 64 (0X40): EndCollection
+Item: 65 (0X41): end
+End Items List: Items:33
